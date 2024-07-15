@@ -1,3 +1,3 @@
 console("hello")
 
-alerrt(yes no)
+alerrt(yes no);

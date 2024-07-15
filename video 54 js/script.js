@@ -1,3 +1,1 @@
-console("hellooo")
-
-alert
+console("hello")

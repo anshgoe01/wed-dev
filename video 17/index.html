@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element Selector */
+        div {
+            /* background-color: yellow; color: red; */
+        }
+
+        /* class selector  */
+        .red {
+            background-color: yellow;
+        }
+
+        /* id selector */
+        #green {
+            background-color: green;
+        }
+
+        /* child selector*/
+        div>p {
+            background-color: purple;
+            color: pink;
+        }
+
+        /* descendent selector */
+        div p {
+            background-color: purple;
+            color: pink;
+        }
+
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selector */
+        a:visited{
+            color: orange;
+        }
+
+        a:link{
+            color: blue;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: red;
+        }
+
+        
+
+
+    </style>
+</head>
+
+<body>
+    <div class="red"> i am a dev
+        <article>
+            <p>i am a para inside a div</p>
+        </article>
+
+    </div>
+    <div id="green">I am another dev</div>
+    
+    <a href="https://www.google.com">Go to google</a>
+    <a href="https://www.flipkart.com">Go to Flipkart</a>
+</body>
+
+</html>
